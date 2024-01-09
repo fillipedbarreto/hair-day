@@ -46,7 +46,7 @@ nav ul{
 }
 
 nav a {
-    color: var(--font-main-color);;
+    color: var(--font-main-color);
     font-size: var(--font-size-nav);
     font-weight: var(--font-weight-bold);
     text-decoration: none;
@@ -83,6 +83,11 @@ main div {
     border-radius: 1rem;
     background-color: #a18c5d;
     padding: 1rem 1.5rem;
+
+    color: var(--font-main-color);
+    font-size: var(--font-size-nav);
+    font-weight: var(--font-weight-bold);
+    text-decoration: none;
 }
 
 .container-cards h2 {
@@ -115,6 +120,10 @@ hr {
 
 .container-footer img {
     width: 20%;
+}
+
+.container-cards:hover {
+    background-color: var(--nav-background);
 }
 
 @media (max-width: 1000px) {
